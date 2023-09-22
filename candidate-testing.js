@@ -29,7 +29,7 @@ let candidateAnswer = input.question("Who was the first American woman in space?
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-if (candidateAnswer = candidateAnswer){
+if (candidateAnswer = correctAnswer){
   console.log('correct!!!')
 } else {
   console.log('wrong')
@@ -45,7 +45,7 @@ if (candidateAnswer = candidateAnswer){
 function runProgram() {
   askForName();
   // TODO 1.1c: Greet candidate using their name //
-   console.log(`greatings ${candidateName}`);
+   console.log(`greatings,  ${candidateName}` );
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 }
